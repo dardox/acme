@@ -5,18 +5,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+/**
+ * Created by borislav on 04.04.17.
+ */
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
-        this.pageTitle = 'Acme products';
+var ProductListComponent = (function () {
+    function ProductListComponent() {
+        this.pageTitle = 'Product List';
     }
-    return AppComponent;
+    return ProductListComponent;
 }());
-AppComponent = __decorate([
+ProductListComponent = __decorate([
     core_1.Component({
-        selector: 'pm-app',
-        templateUrl: 'app/app.component.html'
+        selector: 'pm-products',
+        templateUrl: 'app/products/product-list.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], ProductListComponent);
+exports.ProductListComponent = ProductListComponent;
+//# sourceMappingURL=product-list.component.js.map
